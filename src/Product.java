@@ -12,15 +12,17 @@ public class Product {
 		this.productID = productID;
 	}
 	
-	
+	// s varible for the name 
 	public String getName(String s) {
 		return s;
 	}
 	
+	// d varible for the price 
 	public double getPrice(double d) {
 		return d;
 	}
 	
+	// i varible for the product ID
 	public int getProductID(int i) {
 		return i;
 	}
