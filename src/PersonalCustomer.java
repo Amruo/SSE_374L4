@@ -21,7 +21,7 @@ public class PersonalCustomer extends Customer {
 	}
 	
 	// getting the number of card 
-	public int getCreditCardNumber{
+	public int getCreditCardNumber(){
 		return creditCardNumber;
 	}
 	
