@@ -3,6 +3,7 @@ package OrderDiagram;
 // new class called OrderLine that has 3 private varibles and four public methods
 public class OrderLine {
 	
+	//creating private variables 
 	private int quantity;
 	private double price;
 	private Product product;

@@ -1,5 +1,6 @@
 package OrderDiagram;
 import java.util.Date;
+import java.util.Date;
 
 // new class called Order with five private data feilds and three public methods
 public class Order {
@@ -10,7 +11,7 @@ public class Order {
 	private Customer new_customer;
 	private OrderLine[] line;
 	
-	public Order(Date date, double price,int orderID) {
+	public Order(OrderLine newOrderLine,Date date, double price,int orderID) {
 		this.dateReceived= date;
 		this.price = price;
 		this.orderID = orderID;

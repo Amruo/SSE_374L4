@@ -2,9 +2,11 @@ package OrderDiagram;
 
 public class Product {
 	
+	//creating private variables 
 	private String name;
 	private double price;
 	private int productID;
+	
 	
 	public Product(String name, double price, int productID) {
 		this.name = name;

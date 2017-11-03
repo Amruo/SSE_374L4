@@ -1,11 +1,22 @@
 package OrderDiagram;
 
+// this class is inherited from Customer class
 public class CorporateCustomer extends Customer  {
 
-	public CorporateCustomer(String name, String address, float creditRating, float discountRating) {
-		super(name, address, creditRating, discountRating);
+	private String contactName;
+	
+	// initialize the contactName to null 
+	public CorporateCustomer() {
+		contactName = null;
+	}
+	
+	// setting the contact name
+	public void setContactName(String newContactName) {
+		contactName = newContactName;
 	}
 
-	private String contactName;
-
+	// getting the contact name
+	public String getContactName() {
+		return contactName;
+	}
 }
