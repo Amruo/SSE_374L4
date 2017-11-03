@@ -21,7 +21,7 @@ public class Order {
 		return d;
 	}
 	
-	// method to calculate the price 
+	// method to calculate the price (i wanted to include the discount but got some problem so i change it )
 	public double calculatePrice( double result) {
 		
 		Double totalPrice = 0.0;
