@@ -48,7 +48,7 @@ public class Customer {
 	
 	// setting the discount Rating
 	public void setDiscountRating(float newDiscountRating){
-		discountRating = getDiscountRating;
+		discountRating = newDiscountRating;
 	}
 	
 	// gdr is short for getDiscountRating
