@@ -8,7 +8,7 @@ public class OrderLine {
 	private double price;
 	private Product product;
 	
-	// constructor for the object 
+	// constructor for the object
 	public OrderLine(Product product[], int quantity, double price) {
 		this.product = product[10];
 		this.quantity = quantity;
