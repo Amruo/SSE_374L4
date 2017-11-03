@@ -2,7 +2,7 @@ package OrderDiagram;
 
 public class Product {
 	
-	//creating private variables 
+	//creating private variables
 	private String name;
 	private double price;
 	private int productID;
